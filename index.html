@@ -19,7 +19,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -39,13 +39,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Parceiros</a>
+                        <a class="nav-link" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -61,22 +61,19 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active"
-                style="background-image: url('https://images.unsplash.com/photo-1602853175733-5ad62dc6a2c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1023&q=80')">
+            <div class="carousel-item active" style="background-image: url('./imgs/abast.jpg')">
                 <div class="carousel-caption d-none d-md-block">
                     <h2 class="display-4">Abastecimento</h2>
                     <p class="lead">Controle de volume</p>
                 </div>
             </div>
-            <div class="carousel-item"
-                style="background-image: url('https://images.unsplash.com/photo-1488672219853-a0281f9ac59d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80')">
+            <div class="carousel-item" style="background-image: url('./imgs/bombas.jpg')">
                 <div class="carousel-caption d-none d-md-block">
                     <h2 class="display-4">Bombas</h2>
                     <p class="lead">Bloqueie e libere</p>
                 </div>
             </div>
-            <div class="carousel-item"
-                style="background-image: url('https://images.unsplash.com/photo-1565044512849-f43c3df8f5a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80')">
+            <div class="carousel-item" style="background-image: url('./imgs/frotas.jpg')">
                 <div class="carousel-caption d-none d-md-block">
                     <h2 class="display-4">Frotas</h2>
                     <p class="lead">Compare as médias</p>
@@ -94,69 +91,91 @@
     </div>
     <!-- Final Carrosel -->
 
-    <!-- Inicio Patrocinadores -->
+    <!-- Inicio Parceiros -->
+    <a id="parceiros"></a>
     <div class="container">
         <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-            <h1 class="display-4">Parceria</h1>
-            <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap
-                example. It’s built with default Bootstrap components and utilities with little customization.</p>
+            <h1 class="display-4">Parceiros</h1>
+            <p class="lead">
+                O aplicativo é desenvolvido nas dependências da Transportadora Herculano, tendo anuência e
+                participação efetiva da empresa Companytec, que contribue sempre que é solicitada.</p>
         </div>
         <div class="card-deck mb-3 text-center">
             <div class="card mb-4 shadow-sm">
                 <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Free</h4>
+                    <h4 class="my-0 font-weight-normal">Juiz de Fora - MG</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>10 users included</li>
-                        <li>2 GB of storage</li>
-                        <li>Email support</li>
-                        <li>Help center access</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                    <h1 class="card-title pricing-card-title">Transportadora Herculano<small class="text-muted"></small></h1>
+                    <br>
+                    <a href="https://transherculano.com.br/" target="_blank"><img src="./imgs/th_logo.png"></a>
+                    <br>
+                    <br>
                 </div>
             </div>
             <div class="card mb-4 shadow-sm">
                 <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Pro</h4>
+                    <h4 class="my-0 font-weight-normal">Pelotas - RS</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>20 users included</li>
-                        <li>10 GB of storage</li>
-                        <li>Priority email support</li>
-                        <li>Help center access</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                    <h1 class="card-title pricing-card-title">Companytec<small class="text-muted"></small></h1>
+                    <a href="https://www.companytec.com.br/" target="_blank"><img src="imgs/company_logo.png"></a>
                 </div>
             </div>
 
         </div>
     </div>
-    <!-- Final Patrocinadores -->
-    
-    <!-- Inicio Sobre -->
-    <div class="container">
-        <hr class="featurette-divider">
+    <!-- Final Pareceiros -->
 
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your
-                        mind.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
-                    tellus ac cursus commodo.</p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-fluid rounded-top mx-auto" src="concentrador.jpg"
-                    data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    <!-- Inicio Sobre -->
+    <a id="sobre"></a>
+    <div class="container">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Sobre</h1>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Sistema de abastecimento <span class="text-muted">usa os
+                            concentradores
+                            da Companytec.</span></h2>
+                    <p class="lead">Desenvolvidos com tecnologia nacional, os concentradores da Companytec 
+                        são utilizados para efetuar a comunicação entre o sistema e a bomba de abastecimento.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid rounded-top mx-auto" src="./imgs/concentrador.jpg"
+                        data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                </div>
             </div>
         </div>
     </div>
     <!-- Final Sobre -->
 
+    <!--Contatos-->
+    <a id="contato"></a>
+    <div class="container">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Contato</h1>
+            <p class="lead">
+
+                Entre em contato:
+
+            <p>
+                <a target="_blank" href="https://www.instagram.com/delci.silvajr/">
+                    <button class="btn btn-outline-secondary"><i class="fab fa-instagram"></i> Instagram</button>
+                </a>
+
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=5532991008151&text=Ol%C3%A1!">
+                    <button class="btn btn-outline-secondary"><i class="fab fa-whatsapp"></i> Whatsapp</button>
+                </a>
+            </p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3706.8242674044277!2d-43.43639408499028!3d-21.709548001703038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989eef5f9b2599%3A0xea4f71a877293602!2sTrans-Herculano!5e0!3m2!1spt-BR!2sbr!4v1605373214878!5m2!1spt-BR!2sbr"
+                width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </p>
+        </div>
+    </div>
+
+    <!--Fim do Contatos-->
 </body>
 
 </html>
